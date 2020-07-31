@@ -10,7 +10,10 @@ pr:
       - master 
       - release/*
       - dev1
-
+  paths:
+    include:
+      - ops/*
+      
 trigger:
   batch: true
   branches:
