@@ -10,9 +10,9 @@ pr:
       - master 
       - release/*
       - dev1
-  paths:
-    include:
-      - ops/*
+#  paths:
+#    include:
+#      - ops/*
       
 trigger:
   batch: true
